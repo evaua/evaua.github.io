@@ -1,0 +1,95 @@
+html, body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #FAFAFA;
+}
+
+header {
+	width: 100vw;
+	min-height: 5vh;
+	background: #0D5047;
+}
+
+header h1 {
+	padding: 2vh;
+	margin: 0;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+.button {
+	float: left;
+	margin: 1vh;
+	width: 50vh;
+	height: 10vh;
+	display: block;
+	background-color: #0D5047;
+	font-size: 5vh;
+	line-height: 5vh;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.button:hover {
+	cursor: pointer;
+}
+
+#description {
+    position: relative;
+    width: 26vw;
+    padding: 2vw 2vw;
+    float: left;
+    text-align: justify;
+    font-size: 1.5em;
+}
+
+#circle {
+    position: relative;
+    width: 25vw;
+    height: 25vw;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-width: 0.5vw;
+    border-style: solid;
+    border-color: rgb(30, 30, 30);
+    padding: 2vw 2vw;
+    background: #0D5047;
+}
+
+.hidden {
+    display: none;
+}
+
+.results {
+    width: 792px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 44px;
+    color: #010204;
+}
+
+.times {
+	display: block;
+	width: 792px;
+	margin: 0 auto;
+    text-align: start;
+    font-size: 44px;
+    color: #010204;
+}
+
+#times {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+}
+
+.times-list {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	list-style-type: none;
+}
+
+
+
